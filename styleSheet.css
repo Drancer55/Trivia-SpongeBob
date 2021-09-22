@@ -1,0 +1,32 @@
+/*@font-face {
+font-family: Spongebob;
+src: url(Spongebob.ttf);
+}*/
+
+body { 
+    background-image: url(Assets/Fondo\ cielo.jpg), linear-gradient(90deg, rgba(70, 54, 54, 0.384),rgba(8, 131, 80, 0.452));
+    background-position:inherit;
+    background-size: 100%;
+    
+}
+
+h1 {
+font-family: Spongebob;
+}
+
+#tabla{
+table-layout: fixed;
+border-collapse: collapse;
+border: 2px solid rgb(6, 6, 85);
+height: 100%;
+width: 50%;
+}
+
+#tabla td{
+border: 2px solid rgb(6, 6, 85);    
+}
+
+#tabla .question {
+    border-right: none;
+    width: 50%;
+}
