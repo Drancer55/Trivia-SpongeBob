@@ -3,30 +3,98 @@ font-family: Spongebob;
 src: url(Spongebob.ttf);
 }*/
 
+@import url('https://fonts.googleapis.com/css2?family=Gluten&family=Nova+Square&display=swap');
+
 body { 
-    background-image: url(Assets/Fondo\ cielo.jpg), linear-gradient(90deg, rgba(70, 54, 54, 0.384),rgba(8, 131, 80, 0.452));
-    background-position:inherit;
+    background-image: url(Assets/Fondo\ cielo.jpg), linear-gradient(180deg, rgba(10, 155, 82, 0.418),rgba(8, 122, 116, 0.452));
+    background-position: inherit;
+    background-attachment: fixed;
     background-size: 100%;
-    
 }
 
 h1 {
-font-family: Spongebob;
+font-family: 'Nova Square', cursive;
+text-align: center;
+color: navy;
 }
 
-#tabla{
-table-layout: fixed;
-border-collapse: collapse;
-border: 2px solid rgb(6, 6, 85);
-height: 100%;
-width: 50%;
+h2{
+    color: navy;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Gluten', cursive;
+
+}
+
+caption{
+    font-family: 'Gluten', cursive;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+thead{
+    text-align: left;
+    font-size: 1.3rem;
+}
+
+td{
+    font-family: 'Nova Square', cursive;
+    font-size: 1.2rem;
+    background-color: rgba(85, 61, 26, 0.548);
+}
+
+table{
+    table-layout:auto;
+    border-collapse: collapse;
+    border: 2px solid rgb(6, 6, 85);
+    width: 80%;
+    margin: 0 auto;
 }
 
 #tabla td{
-border: 2px solid rgb(6, 6, 85);    
+    border: 2px solid rgb(13, 13, 184);
+    font-family: 'Nova Square', cursive;;
+    text-align: left;
+    height: 250%;
 }
 
 #tabla .question {
     border-right: none;
     width: 50%;
+}
+
+#final{
+    font-family: 'Nova Square', cursive;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    color: rgb(31, 46, 17);
+    text-align: center;
+}
+
+tfoot{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    color: rgba(21, 22, 22, 0.925);
+}
+
+#score{
+    font-family: 'Gluten', cursive;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+th{
+    background-color: rgba(180, 179, 84, 0.521);
+    color: rgba(4, 4, 54, 0.925);
+}
+
+i{
+    color: rgb(21, 34, 1);
 }
